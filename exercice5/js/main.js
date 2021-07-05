@@ -1,0 +1,2 @@
+
+$('#text').addClass('float-right');
