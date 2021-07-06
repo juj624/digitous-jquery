@@ -1,7 +1,6 @@
-$(document).ready(function () {
+$(document).ready( () => {
 
     $(".btn-success").click(() => {
-
         $.ajax({
             url: 'https://restcountries.eu/rest/v2/name/france',
             success: function (data, statuts, response) {
@@ -10,7 +9,6 @@ $(document).ready(function () {
                 console.log(data[0].capital);
             }
         });
-    });
+   
 
-});
 
